@@ -3,8 +3,15 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-.btn-primary{
-    
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #FFF;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 /* header style */
@@ -20,7 +27,7 @@ nav {
 }
 
 .nav-title {
-    color: var(--Dark-01, #131313);
+    color:  #131313;
     font-size: 45px;
     font-weight: 700;
 }
@@ -61,4 +68,27 @@ nav li a {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+}
+.banner img{
+    margin-top: 50px;
+    width: 100%;
+}
+/* responsive media style */
+/* mobail device */
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+    }
+    header{
+        padding: 20px;
+    }
+}
+/* tablet */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+nav{
+    flex-direction: column;
+}
+    header{
+        padding: 50px;
+}
 }
