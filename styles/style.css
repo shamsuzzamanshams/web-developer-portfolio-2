@@ -27,7 +27,7 @@ nav {
 }
 
 .nav-title {
-    color:  #131313;
+    color: #131313;
     font-size: 45px;
     font-weight: 700;
 }
@@ -69,26 +69,82 @@ nav li a {
     font-weight: 400;
     line-height: 26px;
 }
-.banner img{
+
+.banner img {
     margin-top: 50px;
     width: 100%;
 }
+
 /* responsive media style */
 /* mobail device */
 @media screen and (max-width: 576px) {
-    nav{
+    nav {
         flex-direction: column;
     }
-    header{
+
+    header {
         padding: 20px;
     }
 }
+
 /* tablet */
 @media screen and (min-width: 576px) and (max-width: 960px) {
-nav{
-    flex-direction: column;
-}
-    header{
+    nav {
+        flex-direction: column;
+    }
+
+    header {
         padding: 50px;
+    }
 }
+
+/* main style */
+main {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+/* team style */
+.team-containar {
+    display: flex;
+    align-items: center;
+}
+
+.team-image-containar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.team-contant {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.Quick-list {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.of-Our {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Features {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.team-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
