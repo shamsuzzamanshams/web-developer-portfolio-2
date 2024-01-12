@@ -126,6 +126,72 @@ main {
     line-height: 26px;
 }
 
+/* feature section style */
+.features-section {
+    margin-top: 130px;
+    display: flex;
+    gap: 146px;
+}
+
+.feature-content .all-common {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.feature-content-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature-content-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.common {
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.common2 {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.ten-year-badge {
+    border-radius: 8px;
+    background: #FF900E;
+    width: 342px;
+    text-align: center;
+    padding: 46px;
+}
+
+.Year-h2 {
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 70px;
+
+}
+
+.Experience-p {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
 /*fact-section  */
 .facts-section-title {
     color: #131313;
@@ -171,11 +237,12 @@ main {
 }
 
 /* sponspors style */
-.sponspors{
+.sponspors {
     text-align: center;
 }
+
 .sponspors-title {
-    color:  #131313;
+    color: #131313;
     font-size: 45px;
     font-weight: 700;
     line-height: normal;
@@ -187,14 +254,16 @@ main {
     font-weight: 400;
     line-height: 26px;
 }
-.sponspors-img-div{
+
+.sponspors-img-div {
     margin-top: 50px;
     display: flex;
-    justify-content:space-evenly ;
+    justify-content: space-evenly;
     align-items: center;
     gap: 40px;
 }
-.sponspors-img-div img{
+
+.sponspors-img-div img {
     width: 165px;
 }
 
@@ -207,7 +276,8 @@ main {
 
     nav,
     .team-containar,
-    .fact-card-container, .sponspors-img-div {
+    .fact-card-container,
+    .sponspors-img-div {
         flex-direction: column;
     }
 
@@ -234,7 +304,8 @@ main {
 @media screen and (min-width: 576px) and (max-width: 960px) {
 
     nav,
-    .team-containar, .sponspors-img-div {
+    .team-containar,
+    .sponspors-img-div {
         flex-direction: column;
     }
 
